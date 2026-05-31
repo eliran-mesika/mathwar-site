@@ -36,15 +36,47 @@
       <div class="shell hero-grid">
         <div>
           <p class="eyebrow">In development for iPhone and iPad</p>
-          <h1>Math practice with consequences.</h1>
+          <h1>Math practice with battles and consequences.</h1>
           <p class="lede">MathWar turns quick arithmetic choices into a mobile runner: pick gates, grow your squad, survive the route, and learn why `x2` is sometimes a gift and sometimes a trap wearing a nice hat.</p>
+          <div class="game-stats" aria-label="MathWar gameplay highlights">
+            <span>Arithmetic gates</span>
+            <span>Army growth</span>
+            <span>Short mobile runs</span>
+          </div>
           <div class="actions">
             <a class="button primary" href="support/">Get Support</a>
-            <a class="button secondary" href="https://mesikalabs.com/blog/math-war/">Read Dev Notes</a>
+            <a class="button secondary" href="blog/">Read Dev Notes</a>
           </div>
         </div>
         <div class="preview">
           <img src="assets/mathwar-gameplay.png" alt="MathWar mobile gameplay with arithmetic gates and a player squad" width="1080" height="1920" fetchpriority="high">
+          <div class="preview-note">
+            <strong>Actual prototype capture</strong>
+            <span>Portrait-first runner, readable numbers, visible squad growth.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof-section" aria-labelledby="proof-title">
+      <div class="shell">
+        <div class="section-head">
+          <h2 id="proof-title">The math changes the run.</h2>
+          <p>The screenshot is not decoration. It shows the core loop: choose the gate, change the army, then deal with the next wave.</p>
+        </div>
+        <div class="proof-grid">
+          <figure class="proof-shot proof-top">
+            <img src="assets/mathwar-gameplay.png" alt="MathWar top of run with wave and arithmetic result indicators" width="1080" height="1920" loading="lazy">
+            <figcaption>Wave state stays visible while the route moves.</figcaption>
+          </figure>
+          <figure class="proof-shot proof-mid">
+            <img src="assets/mathwar-gameplay.png" alt="MathWar player squad growing through arithmetic choices" width="1080" height="1920" loading="lazy">
+            <figcaption>Answers affect the army immediately.</figcaption>
+          </figure>
+          <figure class="proof-shot proof-bottom">
+            <img src="assets/mathwar-gameplay.png" alt="MathWar enemy wave approaching the player squad" width="1080" height="1920" loading="lazy">
+            <figcaption>Bad choices become visible pressure, not a red X in a worksheet.</figcaption>
+          </figure>
         </div>
       </div>
     </section>

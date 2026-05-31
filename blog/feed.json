@@ -8,7 +8,9 @@
       "date": "2026-05-31",
       "app": "MathWar",
       "category": "Math Learning Game",
-      "summary": "A development note about arithmetic gates, army growth, and making short math practice sessions more playable."
+      "summary": "A development note about arithmetic gates, army growth, and making short math practice sessions more playable.",
+      "image": "https://mathwar.mesikalabs.com/assets/blog/mathwar-gameplay-thumb.png",
+      "imageAlt": "MathWar gameplay thumbnail"
     }
   ]
 }
