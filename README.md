@@ -10,6 +10,8 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 - `support/index.html`
 - `privacy/index.html`
 - `terms/index.html`
+- `blog/index.html`
+- `blog/feed.json`
 - `robots.txt`
 - `sitemap.xml`
 - `assets/`
@@ -21,4 +23,4 @@ cd /Users/eliranmesika/Documents/MathWar/docs
 python3 -m http.server 8090 --bind 127.0.0.1
 ```
 
-Then check `/`, `/support/`, `/privacy/`, `/terms/`, `/robots.txt`, and `/sitemap.xml`.
+Then check `/`, `/support/`, `/privacy/`, `/terms/`, `/blog/`, `/blog/feed.json`, `/robots.txt`, and `/sitemap.xml`.

@@ -1,0 +1,14 @@
+{
+  "title": "MathWar Blog",
+  "home": "https://mathwar.mesikalabs.com/blog/",
+  "items": [
+    {
+      "title": "Math Practice Needs Fewer Worksheets and More Battles",
+      "url": "https://mathwar.mesikalabs.com/blog/math-practice-with-battles/",
+      "date": "2026-05-31",
+      "app": "MathWar",
+      "category": "Math Learning Game",
+      "summary": "A development note about arithmetic gates, army growth, and making short math practice sessions more playable."
+    }
+  ]
+}
