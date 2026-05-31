@@ -5,7 +5,7 @@
   --line: rgba(23, 23, 23, 0.14);
   --paper: #ffffff;
   --red: #c93528;
-  --blue: #1477d4;
+  --blue: #0d5fb8;
   --yellow: #e5b53a;
   --deep: #14171c;
   --radius: 8px;
@@ -372,6 +372,10 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 16px;
+}
+
+.footer .links {
+  color: #fff2dd;
 }
 
 .legal {
