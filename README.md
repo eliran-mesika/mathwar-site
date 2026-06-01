@@ -14,6 +14,7 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 - `blog/feed.json`
 - `robots.txt`
 - `sitemap.xml`
+- `llms.txt`
 - `assets/`
 
 ## Validation

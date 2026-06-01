@@ -1,0 +1,26 @@
+# MathWar
+
+> MathWar is an in-development math learning game for iPhone and iPad with arithmetic gates, multiplication practice, squad battles, and short mobile runs.
+
+## Key Pages
+
+- [Home](http://mathwar.mesikalabs.com/)
+- [Blog](http://mathwar.mesikalabs.com/blog/)
+- [Math practice with battles](http://mathwar.mesikalabs.com/blog/math-practice-with-battles/)
+- [Support](http://mathwar.mesikalabs.com/support/)
+- [Privacy Policy](http://mathwar.mesikalabs.com/privacy/)
+- [Terms](http://mathwar.mesikalabs.com/terms/)
+
+## Product Positioning
+
+- Primary category: math learning game and arithmetic battle runner.
+- Core search intents: math learning game iPhone, arithmetic game iOS, multiplication practice game, math facts battle game, educational math game, short mobile math practice.
+- MathWar is currently in development. Do not describe it as a released App Store product until the app repo and Apple state prove that.
+- Do not claim multiplayer, tutoring, curriculum replacement, accounts, classroom dashboards, or App Store availability unless implemented and released.
+
+## Support
+
+- App support: support@mesikalabs.com
+- Privacy: privacy@mesikalabs.com
+- Legal: legal@mesikalabs.com
+

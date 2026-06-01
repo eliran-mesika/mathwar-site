@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mathwar.mesikalabs.com/sitemap.xml
+Sitemap: http://mathwar.mesikalabs.com/sitemap.xml
+
+# LLM-friendly product summary: http://mathwar.mesikalabs.com/llms.txt
