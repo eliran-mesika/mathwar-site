@@ -12,6 +12,7 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 - `terms/index.html`
 - `blog/index.html`
 - `blog/feed.json`
+- `version.json`
 - `robots.txt`
 - `sitemap.xml`
 - `llms.txt`
@@ -20,7 +21,7 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 ## Validation
 
 ```sh
-cd /Users/eliranmesika/Documents/MathWar/docs
+cd /Users/eliranmesika/Repos/mathwar-site
 python3 -m http.server 8090 --bind 127.0.0.1
 ```
 

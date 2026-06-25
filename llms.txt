@@ -16,6 +16,7 @@
 - Primary category: math learning game and arithmetic battle runner.
 - Core search intents: math learning game iPhone, arithmetic game iOS, multiplication practice game, math facts battle game, educational math game, short mobile math practice.
 - MathWar is currently in development. Do not describe it as a released App Store product until the app repo and Apple state prove that.
+- Current QA build: MathWar Runner 1.0 (38), uploaded to internal TestFlight QA on 2026-06-25 and not a public App Store release.
 - Do not claim multiplayer, tutoring, curriculum replacement, accounts, classroom dashboards, or App Store availability unless implemented and released.
 
 ## Support
@@ -23,4 +24,3 @@
 - App support: support@mesikalabs.com
 - Privacy: privacy@mesikalabs.com
 - Legal: legal@mesikalabs.com
-
