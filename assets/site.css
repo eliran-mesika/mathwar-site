@@ -369,6 +369,10 @@ h1 {
   gap: 18px;
 }
 
+.gameplay-head {
+  margin-top: 42px;
+}
+
 .proof-shot {
   margin: 0;
   overflow: hidden;
@@ -387,6 +391,12 @@ h1 {
   height: min(760px, 72vw);
   object-fit: contain;
   object-position: center center;
+}
+
+.gameplay-grid .proof-shot img {
+  height: 620px;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .proof-shot figcaption {
