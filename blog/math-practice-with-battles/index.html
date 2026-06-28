@@ -4,30 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Math Practice Needs Fewer Worksheets and More Battles | MathWar</title>
-  <meta name="description" content="A MathWar development note about turning arithmetic practice, multiplication gates, army growth, battles, and short mobile learning sessions into a game.">
+  <meta name="description" content="A MathWar development note about turning arithmetic practice into gates, army growth, battles, and short mobile learning sessions.">
   <meta property="og:title" content="Math Practice Needs Fewer Worksheets and More Battles">
-  <meta property="og:description" content="Why MathWar uses arithmetic gates, multiplication practice, and battles to make short math sessions more playable.">
+  <meta property="og:description" content="Why MathWar uses arithmetic gates and battles to make short math practice sessions more playable.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="http://mathwar.mesikalabs.com/blog/math-practice-with-battles/">
-  <meta property="og:image" content="http://mathwar.mesikalabs.com/assets/mathwar-gameplay-web.jpg?v=20260531perf">
+  <meta property="og:image" content="http://mathwar.mesikalabs.com/assets/mathwar-gameplay.png">
   <meta property="article:published_time" content="2026-05-31">
   <link rel="canonical" href="http://mathwar.mesikalabs.com/blog/math-practice-with-battles/">
-  <link rel="icon" href="../../assets/mathwar-icon-192.png?v=20260531perf" type="image/png">
-  <link rel="apple-touch-icon" href="../../assets/mathwar-icon-192.png?v=20260531perf">
+  <link rel="icon" href="../../assets/mathwar-icon.png" type="image/png">
   <style>
-    :root { color-scheme: light; --bg: #fff8e6; --ink: #21170a; --muted: #69593d; --line: #e6d6ae; --accent: #c8871c; }
+    :root { color-scheme: light; --bg: #e8f5fb; --ink: #111827; --muted: #52606b; --line: rgba(17, 24, 39, 0.14); --accent: #0874d8; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: linear-gradient(180deg, #f7fcff 0%, var(--bg) 100%); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     header, article, footer { width: min(100% - 32px, 820px); margin-inline: auto; }
     header { padding: 32px 0 18px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
     a { color: inherit; text-underline-offset: 4px; }
-    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 850; text-decoration: none; }
-    .brand img { width: 38px; height: 38px; border-radius: 8px; }
-    nav { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .brand { font-weight: 850; text-decoration: none; }
     article { padding: 48px 0 30px; border-top: 1px solid var(--line); }
     h1 { margin: 0 0 18px; font-size: 4rem; line-height: .96; letter-spacing: 0; }
     h2 { margin-top: 34px; }
     p { color: var(--muted); font-size: 1.06rem; line-height: 1.78; }
+    .article-shot { width: min(100%, 420px); margin: 26px 0 10px; border-radius: 8px; box-shadow: 0 18px 42px rgba(16, 22, 34, 0.14); }
     .meta { color: var(--accent); font-size: .82rem; font-weight: 850; text-transform: uppercase; }
     footer { padding: 42px 0; color: var(--muted); }
     @media (max-width: 640px) { h1 { font-size: 2.65rem; line-height: 1.02; } }
@@ -38,7 +36,7 @@
     "@type": "BlogPosting",
     "headline": "Math Practice Needs Fewer Worksheets and More Battles",
     "datePublished": "2026-05-31",
-    "dateModified": "2026-06-01",
+    "dateModified": "2026-05-31",
     "author": { "@type": "Organization", "name": "MesikaLabs" },
     "publisher": { "@type": "Organization", "name": "MesikaLabs" },
     "mainEntityOfPage": "http://mathwar.mesikalabs.com/blog/math-practice-with-battles/"
@@ -47,21 +45,20 @@
 </head>
 <body>
   <header>
-    <a class="brand" href="../../"><img src="../../assets/mathwar-icon-192.png?v=20260531perf" alt="" width="192" height="192">MathWar</a>
+    <a class="brand" href="../../">MathWar</a>
     <nav aria-label="Blog navigation">
-      <a href="../../">App</a>
       <a href="../">Blog</a>
       <a href="../../support/">Support</a>
-      <a href="../../privacy/">Privacy</a>
     </nav>
   </header>
   <article>
     <p class="meta">MathWar / May 31, 2026</p>
     <h1>Math Practice Needs Fewer Worksheets and More Battles</h1>
+    <img class="article-shot" src="../../assets/mathwar-gates.png" alt="MathWar arithmetic gate choice with a blue multiplier and red penalty gate" width="1080" height="1920" fetchpriority="high">
     <p>Kids can detect fake fun from across the room. Put arithmetic on a worksheet, add a cartoon star, and somehow everyone involved knows a tiny educational crime has occurred. MathWar is the attempt to make math practice behave like a game first: answer gates, grow the army, survive the wave, and learn because the system keeps moving.</p>
-    <h2>Arithmetic answers should do something.</h2>
+    <h2>Answers should do something.</h2>
     <p>In MathWar, arithmetic gates change the run. A good answer can grow the squad. A bad answer can make the next fight worse. That feedback loop is the whole point: math is not a detached quiz floating in space, it is the input that changes the game state.</p>
-    <h2>Short math practice sessions matter.</h2>
+    <h2>Short sessions matter.</h2>
     <p>The target is mobile practice, not a 45-minute homework negotiation. A useful round should be readable, quick, and repeatable enough that a kid can improve without feeling like the app trapped them in a spreadsheet with sound effects.</p>
   </article>
   <footer>

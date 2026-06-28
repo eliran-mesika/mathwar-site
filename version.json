@@ -2,9 +2,10 @@
   "app": "MathWar Runner",
   "bundleId": "com.mesikalabs.mathwar",
   "marketingVersion": "1.0",
-  "buildNumber": "38",
+  "buildNumber": "40",
   "channel": "TestFlight Internal QA",
-  "status": "VALID",
-  "publishedAt": "2026-06-25",
-  "sourceCommit": "94f8c1b"
+  "status": "PROCESSING",
+  "publishedAt": "2026-06-26",
+  "siteAssetsUpdatedAt": "2026-06-28",
+  "sourceCommit": "c87d0db"
 }

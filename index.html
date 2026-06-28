@@ -3,49 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MathWar Math Learning Game for iPhone - Arithmetic Battles</title>
-  <meta name="description" content="MathWar is an in-development math learning game for iPhone and iPad with arithmetic gates, multiplication practice, squad battles, and short mobile runs.">
-  <meta property="og:title" content="MathWar Math Learning Game for iPhone">
-  <meta property="og:description" content="Arithmetic practice, multiplication gates, squad battles, readable mobile numbers, and short high-energy runs.">
+  <title>MathWar - Arcade Math Runner for iPhone and iPad</title>
+  <meta name="description" content="MathWar is an in-development iOS arcade math runner where arithmetic gates shape your squad before each fight. Built for readable, high-energy practice.">
+  <meta property="og:title" content="MathWar - Arcade Math Runner">
+  <meta property="og:description" content="Arithmetic gates, growing squads, readable mobile numbers, and short high-energy runs.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://mathwar.mesikalabs.com/">
-  <meta property="og:image" content="http://mathwar.mesikalabs.com/assets/mathwar-gameplay-web.jpg?v=20260531perf">
+  <meta property="og:image" content="http://mathwar.mesikalabs.com/assets/mathwar-gameplay.png">
   <meta property="og:image:alt" content="MathWar arithmetic runner gameplay screenshot">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="http://mathwar.mesikalabs.com/">
   <link rel="alternate" type="application/json" href="version.json">
-  <link rel="icon" href="assets/mathwar-icon-192.png?v=20260531perf" type="image/png">
-  <link rel="apple-touch-icon" href="assets/mathwar-icon-192.png?v=20260531perf">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "MathWar",
-    "url": "http://mathwar.mesikalabs.com/",
-    "operatingSystem": "iOS",
-    "applicationCategory": "EducationalApplication",
-    "applicationSubCategory": "Math learning game",
-    "softwareVersion": "1.0 (38)",
-    "description": "MathWar is an in-development math learning game for iPhone and iPad with arithmetic gates, multiplication practice, squad battles, and short mobile runs.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "MesikaLabs",
-      "url": "https://mesikalabs.com/"
-    }
-  }
-  </script>
+  <link rel="icon" href="assets/mathwar-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/mathwar-icon.png">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
   <header class="shell nav">
     <a class="brand" href="./" aria-label="MathWar home">
-      <img src="assets/mathwar-icon-192.png?v=20260531perf" alt="" width="192" height="192">
+      <img src="assets/mathwar-icon.png" alt="" width="1024" height="1024">
       <span>MathWar</span>
     </a>
     <nav class="links" aria-label="Primary navigation">
       <a href="#game">Game</a>
       <a href="#learning">Learning</a>
-      <a href="blog/">Blog</a>
       <a href="support/">Support</a>
       <a href="privacy/">Privacy</a>
     </nav>
@@ -55,25 +36,47 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div>
-          <p class="eyebrow">In development for iPhone and iPad</p>
-          <h1>Math learning game with battles, gates, and consequences.</h1>
-          <p class="lede">MathWar turns quick arithmetic practice into a mobile runner: pick gates, grow your squad, survive the route, and learn why `x2` is sometimes a gift and sometimes a trap wearing a nice hat.</p>
+          <p class="eyebrow">Prototype in active QA for iPhone and iPad</p>
+          <h1>Arcade math with a squad on the line.</h1>
+          <p class="lede">MathWar turns arithmetic into route decisions: choose gates, grow or lose soldiers, survive pressure waves, and see every answer change the run immediately.</p>
           <div class="game-stats" aria-label="MathWar gameplay highlights">
+            <span>Hero choices</span>
             <span>Arithmetic gates</span>
-            <span>Army growth</span>
-            <span>Short mobile runs</span>
-            <span>Build 1.0 (38)</span>
+            <span>Squad growth</span>
+            <span>Internal QA</span>
           </div>
           <div class="actions">
-            <a class="button primary" href="blog/">Read Dev Notes</a>
-            <a class="button secondary" href="support/">Support Boundary</a>
+            <a class="button primary" href="support/">Get Support</a>
+            <a class="button secondary" href="blog/">Read Dev Notes</a>
           </div>
         </div>
-        <div class="preview">
-          <img src="assets/mathwar-gameplay-web.jpg?v=20260531perf" alt="MathWar math learning game with arithmetic gates and a player squad" width="788" height="1400" fetchpriority="high">
+        <div class="preview hero-roster-preview" aria-label="MathWar current hero choices">
+          <h2>Choose your hero</h2>
+          <div class="hero-card commander-card">
+            <img src="assets/heroes/commander.png" alt="Commander hero" width="256" height="256" fetchpriority="high" decoding="sync">
+            <div>
+              <strong>Commander</strong>
+              <span>Balanced rapid fire</span>
+            </div>
+          </div>
+          <div class="hero-card archer-card">
+            <img src="assets/heroes/archer.png" alt="Archer hero" width="256" height="256" fetchpriority="high" decoding="sync">
+            <div>
+              <strong>Archer</strong>
+              <span>Arrows that pierce a line of foes</span>
+            </div>
+          </div>
+          <div class="hero-card rocketeer-card">
+            <img src="assets/heroes/rocketeer.png" alt="Rocketeer hero" width="256" height="256" fetchpriority="high" decoding="sync">
+            <div>
+              <strong>Rocketeer</strong>
+              <span>Rockets that blast clusters</span>
+            </div>
+          </div>
+          <div class="hero-roster-stage" aria-hidden="true"></div>
           <div class="preview-note">
-            <strong>Actual prototype capture</strong>
-            <span>Portrait-first runner, readable numbers, visible squad growth.</span>
+            <strong>New prototype visuals</strong>
+            <span>Hero select, arcade soldiers, brighter combat lanes, and readable mobile UI.</span>
           </div>
         </div>
       </div>
@@ -82,31 +85,22 @@
     <section class="section proof-section" aria-labelledby="proof-title">
       <div class="shell">
         <div class="section-head">
-          <h2 id="proof-title">Arithmetic practice changes the run.</h2>
-          <p>The screenshot is not decoration. It shows the core loop: choose the gate, change the army, then deal with the next wave.</p>
+          <h2 id="proof-title">The math changes the fight.</h2>
+          <p>These are current prototype captures: gates, pressure waves, visible squad size, and the reward loop after a cleared route.</p>
         </div>
-        <div class="proof-layout">
-          <figure class="proof-shot proof-feature">
-            <img src="assets/mathwar-gameplay-web.jpg?v=20260531perf" alt="MathWar arithmetic battle game with wave and result indicators" width="788" height="1400" loading="lazy">
-            <figcaption>Actual prototype capture: one run, one army, and a very public record of your arithmetic decisions.</figcaption>
+        <div class="proof-grid">
+          <figure class="proof-shot">
+            <img src="assets/mathwar-gameplay.png" alt="MathWar combat capture with a blue squad fighting red enemies on an arcade road" width="1080" height="1920" loading="lazy">
+            <figcaption>Large squads stay readable from the portrait tactical camera.</figcaption>
           </figure>
-          <div class="proof-cards">
-            <article>
-              <span>01</span>
-              <h3>Wave state stays visible</h3>
-              <p>The player always sees the army count, wave, and loss state while the route keeps moving.</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Answers change the squad</h3>
-              <p>Arithmetic gates affect the army immediately, so the math is not a detached pop quiz.</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Bad choices create pressure</h3>
-              <p>A weak route becomes visible before the fight. Very rude, but educational.</p>
-            </article>
-          </div>
+          <figure class="proof-shot">
+            <img src="assets/mathwar-gates.png" alt="MathWar gameplay capture showing a blue multiplication gate and a red subtraction gate" width="1080" height="1920" loading="lazy">
+            <figcaption>Gate choices show the arithmetic result before impact.</figcaption>
+          </figure>
+          <figure class="proof-shot">
+            <img src="assets/mathwar-results.png" alt="MathWar level cleared screen with a large blue squad and reward summary" width="1080" height="1920" loading="lazy">
+            <figcaption>Rewards carry the arithmetic result into the next run.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -119,16 +113,16 @@
         </div>
         <div class="grid">
           <article class="card">
-            <h3>Gate choices</h3>
-            <p>Add, subtract, multiply, or divide your squad before each fight. Correct-looking choices can still be strategically weird, which is the point.</p>
+            <h3>Hero-led runs</h3>
+            <p>Pick Commander, Archer, or Rocketeer before the route. Each run starts with a clear role and a readable squad identity.</p>
           </article>
           <article class="card">
             <h3>Readable mobile math</h3>
-            <p>Oversized world-space numbers and portrait-first framing keep the arithmetic legible on phones and iPads.</p>
+            <p>Oversized gate labels, strong blue/red decisions, and portrait-first framing keep the arithmetic legible on phones and iPads.</p>
           </article>
           <article class="card">
             <h3>Progressive levels</h3>
-            <p>Routes get harder with more gates, waves, and final encounters, while the good path stays winnable without becoming automatic.</p>
+            <p>Routes get harder with more gates, waves, weapon choices, and final encounters while the good path stays winnable without becoming automatic.</p>
           </article>
         </div>
       </div>
@@ -137,13 +131,13 @@
     <section class="section" aria-labelledby="release-title">
       <div class="shell">
         <div class="section-head">
-          <h2 id="release-title">Latest build</h2>
-          <p>Prototype build 1.0 (38) was uploaded to internal TestFlight QA on June 25, 2026. MathWar is still in development, and this status reflects the current QA build, not a public App Store release.</p>
+          <h2 id="release-title">Current QA focus</h2>
+          <p>The prototype is being validated through internal TestFlight QA. The public site now reflects the newer art, hero selection, and combat readability pass.</p>
         </div>
         <div class="grid">
           <article class="card">
-            <h3>Current version</h3>
-            <p>Marketing version 1.0, build 38.</p>
+            <h3>Visual pass</h3>
+            <p>New icon, hero cards, arcade soldiers, brighter route props, and stronger combat screenshots are now represented here.</p>
           </article>
           <article class="card">
             <h3>QA channel</h3>
@@ -151,7 +145,7 @@
           </article>
           <article class="card">
             <h3>Status</h3>
-            <p>Validated by App Store Connect after upload and attached to the internal QA group.</p>
+            <p>In development. Support, privacy, and terms pages remain available while the playable loop continues to improve.</p>
           </article>
         </div>
       </div>
@@ -179,33 +173,6 @@
         </div>
       </div>
     </section>
-
-    <section class="section resource-section" aria-labelledby="resources-title">
-      <div class="shell resource-panel">
-        <div>
-          <p class="eyebrow">Dev notes and support</p>
-          <h2 id="resources-title">Useful math notes, minus the fake classroom cheer.</h2>
-          <p>MathWar is still in development, so the public site should make the current game loop, support path, and release boundary obvious before anyone assumes it is already an App Store product.</p>
-        </div>
-        <div class="resource-list">
-          <a class="resource-card" href="blog/math-practice-with-battles/">
-            <span>Latest blog</span>
-            <strong>Math Practice Needs Fewer Worksheets and More Battles</strong>
-            <p>Why arithmetic gates, squads, and pressure can make short math practice feel less like laminated punishment.</p>
-          </a>
-          <a class="resource-card" href="blog/">
-            <span>Blog index</span>
-            <strong>Math learning game dev notes for arithmetic battles</strong>
-            <p>A crawlable home for development updates, learning design, and MathWar positioning.</p>
-          </a>
-          <a class="resource-card" href="support/">
-            <span>Support</span>
-            <strong>Development status and contact</strong>
-            <p>Feedback, TestFlight questions, parent-facing questions, and the current in-development boundary.</p>
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
@@ -213,7 +180,6 @@
       <span>© 2026 MesikaLabs</span>
       <nav class="links" aria-label="Footer navigation">
         <a href="support/">Support</a>
-        <a href="blog/">Blog</a>
         <a href="privacy/">Privacy</a>
         <a href="terms/">Terms</a>
       </nav>

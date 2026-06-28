@@ -15,13 +15,12 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 - `version.json`
 - `robots.txt`
 - `sitemap.xml`
-- `llms.txt`
 - `assets/`
 
 ## Validation
 
 ```sh
-cd /Users/eliranmesika/Repos/mathwar-site
+cd /Users/eliranmesika/Documents/MathWar/docs
 python3 -m http.server 8090 --bind 127.0.0.1
 ```
 
