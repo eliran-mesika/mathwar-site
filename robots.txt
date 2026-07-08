@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://mathwar.mesikalabs.com/sitemap.xml
+Sitemap: https://mathwar.mesikalabs.com/sitemap.xml

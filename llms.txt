@@ -4,12 +4,12 @@
 
 ## Key Pages
 
-- [Home](http://mathwar.mesikalabs.com/)
-- [Blog](http://mathwar.mesikalabs.com/blog/)
-- [Math practice with battles](http://mathwar.mesikalabs.com/blog/math-practice-with-battles/)
-- [Support](http://mathwar.mesikalabs.com/support/)
-- [Privacy Policy](http://mathwar.mesikalabs.com/privacy/)
-- [Terms](http://mathwar.mesikalabs.com/terms/)
+- [Home](https://mathwar.mesikalabs.com/)
+- [Blog](https://mathwar.mesikalabs.com/blog/)
+- [Math practice with battles](https://mathwar.mesikalabs.com/blog/math-practice-with-battles/)
+- [Support](https://mathwar.mesikalabs.com/support/)
+- [Privacy Policy](https://mathwar.mesikalabs.com/privacy/)
+- [Terms](https://mathwar.mesikalabs.com/terms/)
 
 ## Product Positioning
 

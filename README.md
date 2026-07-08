@@ -2,7 +2,15 @@
 
 Static public site for `mathwar.mesikalabs.com`.
 
-GitHub Pages can publish this folder by selecting the repository `docs/` directory as the Pages source, or an Actions workflow can copy this folder to a Pages artifact.
+GitHub Pages publishes this repository from the `main` branch root.
+
+The canonical local checkout for this public site is:
+
+```sh
+/Users/eliranmesika/Repos/mathwar-site
+```
+
+Do not update `/Users/eliranmesika/Documents/MathWar/docs` or `/Users/eliranmesika/Repos/MathWar/docs` for public-site changes unless the site ownership is deliberately changed first.
 
 ## Files
 
@@ -20,8 +28,12 @@ GitHub Pages can publish this folder by selecting the repository `docs/` directo
 ## Validation
 
 ```sh
-cd /Users/eliranmesika/Documents/MathWar/docs
+cd /Users/eliranmesika/Repos/mathwar-site
 python3 -m http.server 8090 --bind 127.0.0.1
 ```
 
 Then check `/`, `/support/`, `/privacy/`, `/terms/`, `/blog/`, `/blog/feed.json`, `/robots.txt`, and `/sitemap.xml`.
+
+## Hosted Status
+
+DNS currently points `mathwar.mesikalabs.com` at GitHub Pages. HTTPS must be fixed in GitHub Pages before App Store review uses this domain as a production support/privacy/terms target.
