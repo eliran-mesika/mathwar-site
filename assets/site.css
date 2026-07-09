@@ -390,15 +390,26 @@ h1 {
 }
 
 .gameplay-grid .proof-shot img {
-  height: 558px;
+  height: auto;
+  aspect-ratio: 9 / 16;
   object-fit: cover;
   object-position: top center;
 }
 
 .proof-shot figcaption {
-  padding: 13px;
+  min-height: 92px;
+  padding: 16px;
   color: #eaf5ff;
   line-height: 1.52;
+}
+
+.proof-shot figcaption strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #ffffff;
+  font-size: 0.82rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .card {
