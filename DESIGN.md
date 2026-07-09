@@ -1,5 +1,6 @@
 # MathWar Site Design Contract
 
+- Follow the shared MesikaLabs public-site family language in `/Users/eliranmesika/Repos/mesikalabs-site/docs/design-language-system.md` for typography, legal-page chrome, spacing, accessibility, and compliance posture.
 - Keep this repo website-only. Do not modify the game source, prototype captures, or generated gameplay images from this site repo.
 - Visual direction: playful tactical learning, with bright primary accents, readable math/game proof, and direct in-development language.
 - Use the MathWar icon for favicon, Apple touch icon, brand marks, and compact navigation.
