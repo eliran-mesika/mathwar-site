@@ -579,3 +579,9 @@ h1 {
     height: 468px;
   }
 }
+
+/* Current in-game proof, kept separate from the archived roster composition. */
+.current-preview { margin: 0 auto; width: min(100%, 350px); }
+.current-preview img { display: block; width: 100%; height: auto; border: 1px solid #254667; border-radius: 16px; }
+.current-preview figcaption { margin-top: 12px; color: #52606f; font-size: 14px; line-height: 1.5; }
+@media (max-width: 760px) { .nav { flex-wrap: wrap; gap: 16px; } .brand { font-size: 22px; } }

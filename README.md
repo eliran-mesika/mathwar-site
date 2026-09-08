@@ -1,39 +1,13 @@
-# MathWar Public Site
+# BrainMarshal Public Site
 
-Static public site for `mathwar.mesikalabs.com`.
+Static public site for BrainMarshal. The working domain remains `mathwar.mesikalabs.com`; it is also the target of the game support/privacy/terms links. GitHub Pages publishes the main branch root. Merging this PR publishes the rebrand; creating the PR does not deploy it.
 
-GitHub Pages publishes this repository from the `main` branch root.
-
-The canonical local checkout for this public site is:
-
-```sh
-/Users/eliranmesika/Repos/mathwar-site
-```
-
-Do not update `/Users/eliranmesika/Documents/MathWar/docs` or `/Users/eliranmesika/Repos/MathWar/docs` for public-site changes unless the site ownership is deliberately changed first.
-
-## Files
-
-- `index.html`
-- `support/index.html`
-- `privacy/index.html`
-- `terms/index.html`
-- `blog/index.html`
-- `blog/feed.json`
-- `version.json`
-- `robots.txt`
-- `sitemap.xml`
-- `assets/`
+This repository owns the website. Do not edit the legacy `MathWar/docs` website copy. Local checkout: `/Users/eliranmesika/Projects/MesikaLabs/mathwar-site`.
 
 ## Validation
 
-```sh
-cd /Users/eliranmesika/Repos/mathwar-site
-python3 -m http.server 8090 --bind 127.0.0.1
-```
+Run `python3 -m http.server 8090 --bind 127.0.0.1` and check `/`, `/support/`, `/privacy/`, `/terms/`, `/blog/`, `/blog/feed.json`, `/version.json`, `/robots.txt`, and `/sitemap.xml` at phone and desktop widths.
 
-Then check `/`, `/support/`, `/privacy/`, `/terms/`, `/blog/`, `/blog/feed.json`, `/robots.txt`, and `/sitemap.xml`.
+## Release status
 
-## Hosted Status
-
-DNS currently points `mathwar.mesikalabs.com` at GitHub Pages. HTTPS must be fixed in GitHub Pages before App Store review uses this domain as a production support/privacy/terms target.
+BrainMarshal 1.0 (1), bundle `com.mesikalabs.brainmarshal`, Apple ID `6809766309`. Device QA is underway. No public release or new TestFlight distribution is claimed. The new hero selection capture is current; gameplay gallery and older blog artwork are explicitly historical development images. Current HTTPS support/privacy routes returned HTTP 200 on 2026-09-08.
