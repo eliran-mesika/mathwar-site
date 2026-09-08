@@ -1,16 +1,16 @@
 {
-  "title": "MathWar Blog",
+  "title": "BrainMarshal Blog",
   "home": "https://mathwar.mesikalabs.com/blog/",
   "items": [
     {
       "title": "Math Practice Needs Fewer Worksheets and More Battles",
       "url": "https://mathwar.mesikalabs.com/blog/math-practice-with-battles/",
       "date": "2026-05-31",
-      "app": "MathWar",
+      "app": "BrainMarshal",
       "category": "Math Learning Game",
       "summary": "A development note about arithmetic gates, army growth, and making short math practice sessions more playable.",
       "image": "https://mathwar.mesikalabs.com/assets/blog/mathwar-hero-roster-thumb.png",
-      "imageAlt": "MathWar gameplay thumbnail"
+      "imageAlt": "BrainMarshal gameplay thumbnail"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
-  "app": "MathWar Runner",
-  "bundleId": "com.mesikalabs.mathwar",
+  "app": "BrainMarshal",
+  "bundleId": "com.mesikalabs.brainmarshal",
+  "appleId": "6809766309",
   "marketingVersion": "1.0",
-  "buildNumber": "40",
-  "channel": "TestFlight Internal QA",
-  "status": "PROCESSING",
-  "publishedAt": "2026-06-26",
-  "siteAssetsUpdatedAt": "2026-06-28",
-  "sourceCommit": "c87d0db"
+  "buildNumber": "1",
+  "channel": "Local device QA",
+  "status": "IN_DEVELOPMENT",
+  "appStoreReview": "NOT_SUBMITTED",
+  "testFlightAvailable": false,
+  "siteAssetsUpdatedAt": "2026-09-08"
 }
