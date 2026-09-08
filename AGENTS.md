@@ -2,7 +2,7 @@
 
 ## Project Focus
 
-- This repo is the static public website for `mathwar.mesikalabs.com`.
+- This repo is the static public website for `brainmarshal.mesikalabs.com`.
 - Follow `DESIGN.md` for visual rules, navigation structure, icon usage, and development-state constraints.
 - Keep claims aligned with the current BrainMarshal development state. It is in development, not a public App Store release unless the main app repo and Apple state prove otherwise.
 - Use `support@mesikalabs.com` for BrainMarshal support until a dedicated address exists.

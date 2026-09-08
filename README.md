@@ -1,6 +1,6 @@
 # BrainMarshal Public Site
 
-Static public site for BrainMarshal. The working domain remains `mathwar.mesikalabs.com`; it is also the target of the game support/privacy/terms links. GitHub Pages publishes the main branch root. Merging this PR publishes the rebrand; creating the PR does not deploy it.
+Static public site for BrainMarshal. The canonical domain is `brainmarshal.mesikalabs.com`, including support/privacy/terms links. GitHub Pages publishes the main branch root. Cloudflare redirects the legacy `mathwar.mesikalabs.com` hostname to the canonical domain while preserving paths and query strings.
 
 This repository owns the website. Do not edit the legacy `MathWar/docs` website copy. Local checkout: `/Users/eliranmesika/Projects/MesikaLabs/mathwar-site`.
 
