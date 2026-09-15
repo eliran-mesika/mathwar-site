@@ -10,4 +10,6 @@ Run `python3 -m http.server 8090 --bind 127.0.0.1` and check `/`, `/support/`, `
 
 ## Release status
 
-BrainMarshal 1.0 (1), bundle `com.mesikalabs.brainmarshal`, Apple ID `6809766309`. Device QA is underway. No public release or new TestFlight distribution is claimed. The new hero selection capture is current; gameplay gallery and older blog artwork are explicitly historical development images. Current HTTPS support/privacy routes returned HTTP 200 on 2026-09-08.
+BrainMarshal 1.0 (2), bundle `com.mesikalabs.brainmarshal`, Apple ID `6809766309`, was resubmitted on 2026-09-15 at 17:55 local with six clean screenshots per device. App Store Connect confirmed Waiting for Review, submission `d8d67618-c546-48b6-90bb-648a5faf8dca`. This is not approval or public availability.
+
+The homepage shows current training selection, campaign map, hero selection, question, boss and gate screenshots. Full original iPhone PNGs are preserved in `assets/screenshots/2026-09-15/source/`; the page serves 600px WebP derivatives. Historic blog imagery remains historical.
