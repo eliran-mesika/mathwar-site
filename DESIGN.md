@@ -12,3 +12,5 @@
 - Use `support@mesikalabs.com` for BrainMarshal support until a dedicated address exists, `privacy@mesikalabs.com` for privacy, and `legal@mesikalabs.com` for legal.
 
 - Use BrainMarshal consistently in public copy and metadata. Keep the existing HTTPS domain until a deliberate DNS migration. Current game captures lead the homepage; archived gameplay and blog imagery must be labelled as earlier development.
+
+- Screenshot direction approved on 2026-09-15: show clean, full game screens with no promotional text, extra backgrounds, or decorative frames baked into the image. Training selection leads; campaign map and hero selection follow. Preserve the full portrait aspect ratio. Use concise external captions and optimized WebP derivatives linking to the original PNGs.

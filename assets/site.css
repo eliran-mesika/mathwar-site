@@ -206,8 +206,8 @@ h1 {
   width: 100%;
   height: min(72vh, 760px);
   border-radius: var(--radius);
-  aspect-ratio: 9 / 16;
-  object-fit: cover;
+  aspect-ratio: 1242 / 2688;
+  object-fit: contain;
   object-position: top center;
 }
 
@@ -391,8 +391,8 @@ h1 {
 
 .gameplay-grid .proof-shot img {
   height: auto;
-  aspect-ratio: 9 / 16;
-  object-fit: cover;
+  aspect-ratio: 1242 / 2688;
+  object-fit: contain;
   object-position: top center;
 }
 
@@ -585,3 +585,8 @@ h1 {
 .current-preview img { display: block; width: 100%; height: auto; border: 1px solid #254667; border-radius: 16px; }
 .current-preview figcaption { margin-top: 12px; color: #52606f; font-size: 14px; line-height: 1.5; }
 @media (max-width: 760px) { .nav { flex-wrap: wrap; gap: 16px; } .brand { font-size: 22px; } }
+
+/* Keep current game captures uncropped and directly inspectable. */
+.gameplay-grid .proof-shot a { display: block; }
+.gameplay-grid .proof-shot a:focus-visible { outline: 3px solid var(--cyan); outline-offset: -3px; }
+.gameplay-grid .proof-shot figcaption { min-height: 0; padding: 12px 16px; }

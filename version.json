@@ -3,10 +3,10 @@
   "bundleId": "com.mesikalabs.brainmarshal",
   "appleId": "6809766309",
   "marketingVersion": "1.0",
-  "buildNumber": "1",
-  "channel": "Local device QA",
+  "buildNumber": "2",
+  "channel": "App Store review",
   "status": "IN_DEVELOPMENT",
-  "appStoreReview": "NOT_SUBMITTED",
+  "appStoreReview": "WAITING_FOR_REVIEW",
   "testFlightAvailable": false,
-  "siteAssetsUpdatedAt": "2026-09-08"
+  "siteAssetsUpdatedAt": "2026-09-15"
 }
