@@ -3,10 +3,15 @@
   "bundleId": "com.mesikalabs.brainmarshal",
   "appleId": "6809766309",
   "marketingVersion": "1.0",
-  "buildNumber": "2",
-  "channel": "App Store review",
+  "buildNumber": "80",
+  "channel": "Internal TestFlight",
   "status": "IN_DEVELOPMENT",
   "appStoreReview": "WAITING_FOR_REVIEW",
-  "testFlightAvailable": false,
-  "siteAssetsUpdatedAt": "2026-09-15"
+  "testFlightAvailable": true,
+  "siteAssetsUpdatedAt": "2026-09-15",
+  "testFlightAccess": "INVITATION_ONLY",
+  "android": {
+    "status": "AVAILABLE",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.mesikalabs.brainmarshal"
+  }
 }
